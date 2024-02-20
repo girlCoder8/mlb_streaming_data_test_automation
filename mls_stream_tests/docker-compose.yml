@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mlb_stream_test:
+    build:
+      context: .
+    command: npm test

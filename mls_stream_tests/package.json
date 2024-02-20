@@ -1,0 +1,14 @@
+{
+    "name": "mlb_stream_data_test",
+    "version": "1.0.0",
+    "description": "Example: MLB Streaming Data Test Automation Framework",
+    "scripts": {
+        "dev": "mocha test/*.js",
+        "mstest": "mocha test/mlb_stream_teams_test.js",
+        "slacktest": "mocha test/mlb_stream_slack_test.js"
+},
+    "devDependencies": {
+    "mocha": "^10.3.0",
+        "selenium-webdriver": "^4.17"
+  }
+}
